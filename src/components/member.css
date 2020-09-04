@@ -1,0 +1,52 @@
+ #member {
+ 	width: 100%;
+    background-image: url('../assets/member1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+ .card{
+ 	display: flex;
+     box-shadow: 3px 5px 15px 1px rgba(0, 0, 0, 0.253)!important;
+
+ }
+ .card:hover{
+     box-shadow: 5px 10px 20px 1px rgba(71, 64, 64, 0.253)!important;
+ }
+ .overflow{
+    overflow: hidden;
+}
+ .card-img-top{
+     transform: scale(1);
+     transition: transform 0.8s ease;
+ }
+ .card-img-top:hover{
+    transform: scale(1.8);
+}
+.mb-3 {
+	text-align: center;
+}
+.btn-members {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #B40404;
+    border: 2px solid #B40404;
+    text-decoration: none;
+}
+.btn-members:hover {
+    color: white;
+    background-color: #B40404;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+	.card {
+		margin: 10px;
+	}
+}

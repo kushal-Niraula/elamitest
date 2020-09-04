@@ -1,0 +1,30 @@
+#contact .containerC{
+    width: 100%;
+    background-image: url('../assets/backgroundContact.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.contact-label {
+    color: white;
+}
+.btn-submit {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 6px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    
+}
+.btn-submit:hover {
+    background-color: rgba(12, 212, 12, 0.822);
+    border: 2px solid rgba(12, 212, 12, 0.822);
+}

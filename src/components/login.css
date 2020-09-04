@@ -1,0 +1,141 @@
+.authBox{
+    width: 700px;
+    overflow: hidden;
+    margin: 80px auto 30px;
+}
+.leftBox{
+    width: 300px;
+    height: 480px;
+    float: left;
+    position: relative;
+    display: block; 
+}
+.bgColor{   
+    width: 100%;
+    height: 100%;
+    background-color: #B40404;
+    border-top-left-radius: 90px; 
+}
+.imageAuth{
+    background-image: url("../assets/kb.jpeg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 90px;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imageText{
+    font-size: 28px;
+    position: absolute;
+    color: #fff
+}
+.imageText.bold{
+    font-weight: bold;
+}
+.imageText.style1{
+    top: 200px;
+    left: 20px;
+}
+.imageText.style2{
+    top: 250px;
+    left: 20px;
+}
+.rightBox{
+    width: 398px;
+    height: 480px;
+    float: right;
+    border: 2px solid #B40404;
+}
+.box{
+    width: 310px;
+    height: 415px;
+    margin: 32px auto;
+}
+.titleAuth{
+    font-family: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #B40404;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.inputSBox{
+    width: 300px;
+    height: 42px;
+    border-bottom: 2px solid #d8d8d8;
+    margin-bottom: 10px;
+}
+.inputS{
+    width: 100%;
+    height: 98%;
+    font-size: 14px;
+    color: #37353f;
+    text-indent: 10px;
+    border: 0;
+    outline: none;
+}
+.contentBox{
+    overflow: hidden;
+    height: 42px;
+    margin-bottom: 30px;
+}   
+.checkboxBox{
+    overflow: hidden;
+    float: left;
+}
+.checkbox{
+    float: left;
+}
+.checkboxLabel{
+    float: left;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #37353f;
+}
+.text1{
+    float: right;
+    font-size: 14px;
+    color: #006cbc;
+    cursor: pointer;
+}
+.borderBox{
+    width: 300px;
+    height: 47px;
+    position: relative;
+    margin: 20px 0;
+}
+.btn-login {
+    width: 100%;
+    background-color: #B40404 !important;
+    border: 2px solid #B40404 !important;
+}
+.btn-login:hover {
+    background-color: #B40404 !important;
+    opacity: 0.9;
+    border: 2px solid #B40404 !important;
+}
+.register{
+    text-align: center; 
+}
+@media screen and (max-width: 768px){
+    .titleAuth {
+        text-decoration: none;
+    }
+    .authBox{
+        width: 100%;
+    }
+    .leftBox{
+        display: none;
+    }
+    .rightBox{
+        width: 100%;
+        float: initial;
+        border: 2px solid #B40404;
+    }
+}
